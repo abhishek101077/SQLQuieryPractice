@@ -1,0 +1,10 @@
+create database Employee;
+use Employee;
+create table Employeeinfo( id int ,name varchar(50),Address varchar(500));
+select * from Employeeinfo;
+insert into Employeeinfo values('10','Lucas','UK');
+insert into Employeeinfo values('10','Ferran','UK');
+insert into Employeeinfo values('10','Torres','Eng');
+update Employeeinfo set Address ='pune' where id =10;
+update Employeeinfo set name ='Robert' where name ='Lucas';
+Delete from Employeeinfo where name='Robert';
